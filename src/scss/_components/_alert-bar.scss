@@ -1,0 +1,14 @@
+// Alert bar styling
+.alert-bar {
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: $red;
+  animation-delay: 1s;
+
+  p {
+    margin-bottom: 0px;
+    color: white;
+  }
+}
