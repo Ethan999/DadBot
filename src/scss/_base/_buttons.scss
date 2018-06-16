@@ -1,0 +1,40 @@
+// Button Styles
+.btn {
+  transition: background-color 0.2s ease;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  margin: 20px 0px;
+  
+  &:hover {
+    opacity: 0.9;
+    color: none;
+  }
+
+  &__icon {
+    margin-right: 5px;
+  }
+
+  &__tweet {
+    margin-left: 10px;
+  }
+
+  &--red {
+    background-color: $red;
+    color: white;
+  }
+
+  &--white {
+    background-color: $white;
+    color: $black
+  }
+
+  &--blue {
+    background-color: $blue;
+    color: $white;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
