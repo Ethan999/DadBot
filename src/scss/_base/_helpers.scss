@@ -1,0 +1,12 @@
+// Set background colours for any element
+// Example: .bg--beige
+
+.bg {
+  &--beige {
+    background-color: $beige;
+  }
+
+  &--red {
+    background-color: $red;
+  }
+}
