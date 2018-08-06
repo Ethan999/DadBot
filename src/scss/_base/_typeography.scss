@@ -14,12 +14,20 @@ h1 {
   margin-top: 0px;
 }
 
+#joke {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1.5;
+  width: 100%;
+  margin: 2rem 0;
+}
+
 p { 
   font-size: 1em;
   font-weight: 300;
   
   // Set's larger size for intro on Homepage
-  &--lead {
+  .lead {
     font-size: 1.5em;
   }
 }
